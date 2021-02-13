@@ -37,7 +37,7 @@ public class SplashActivity extends AppCompatActivity {
             .setLogo(R.drawable.ic_veterinarian) //setting the logo
             .setTitle("Vetting Doctors")//
             .setSubTitle("Book a vetting, it can't be easier")
-            .setBackgroundColor(R.color.main_green) // changing the background color
+            .setBackgroundColor(R.color.baby_blue) // changing the background color
             .setSubTitleColor("#444444")
             .setTitleColor(R.color.colorAccent)
             .showProgress(true)//Adding progressBar
@@ -54,7 +54,7 @@ public class SplashActivity extends AppCompatActivity {
                 //after animation finishes we need to move to the Vetting screen
                 startActivity(new Intent(
                     SplashActivity.this,
-                    DoctorsActivity.class
+                    InsuranceEntranceActivity.class
                 ));
                 
                 //killing this activity
