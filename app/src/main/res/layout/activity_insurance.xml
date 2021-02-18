@@ -7,6 +7,11 @@
     tools:context=".InsuranceActivity"
     android:background="@drawable/background_repeat">
 
+<!--    This is the layout of the Activity InsuranceActivity, it's simple contains only two cards-->
+<!--    Cards can act like buttons-->
+
+
+<!--    This is the Claims Card, contains only one text-->
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -31,6 +36,7 @@
             android:gravity="center"/>
     </androidx.cardview.widget.CardView>
 
+<!--    This is insurances Card and contains only one text-->
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

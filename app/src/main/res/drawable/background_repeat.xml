@@ -2,3 +2,5 @@
 <bitmap xmlns:android="http://schemas.android.com/apk/res/android"
     android:src="@drawable/injection"
     android:tileMode="repeat" />
+
+<!--This is a repeat background composed of small syringes, got the icon from flatIcon-->

@@ -3,3 +3,4 @@
     <solid android:color="#EFB70E" />
     <corners android:radius="12dp" />
 </shape>
+<!--Background drawable for the button with nice corner curves-->

@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!--This is the layout of the InsuranceEntranceActivity and it has ConstraintLayout as it's root layout-->
+<!--It contains a logo card which contains a logo which is composed of two icons-->
+<!--It also contains a Card acting like a button when clicked it takes you to the next screen.-->
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -8,6 +12,8 @@
     android:background="@drawable/background_repeat">
 
 
+
+<!--    Logo card-->
     <androidx.cardview.widget.CardView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -16,6 +22,8 @@
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="150dp"
         app:cardCornerRadius="14dp">
+
+<!--        Logo combination inside LinearLayout-->
         <LinearLayout
             android:id="@+id/linearLayout"
             android:layout_width="wrap_content"
@@ -24,13 +32,14 @@
             android:background="@color/baby_blue"
             android:padding="20dp">
 
+<!--            First logo component-->
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center|end"
                 android:layout_marginEnd="5dp"
                 android:src="@drawable/ic_contract_1_" />
-
+<!--            Second logo component-->
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -41,6 +50,7 @@
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
+<!--    This card act like a button because I have used setOnClickListener on it's inner text -->
     <androidx.cardview.widget.CardView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -52,6 +62,7 @@
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginBottom="150dp">
 
+<!--        This text has & sign which needs to be written using it's code which it &#38;-->
         <TextView
             android:id="@+id/insurance_text"
             android:layout_width="match_parent"
