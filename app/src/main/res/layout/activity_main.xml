@@ -9,6 +9,6 @@
     >
 
 <!--    This is the splashScreen layout, it has ConstraintLayout as it's main root layout-->
-<!--    The SplashView is generated automatically using very famous third party lib called Splashy-->
+<!--    The SplashView is generated automatically using very famous third party lib called Splas-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

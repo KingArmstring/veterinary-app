@@ -4,29 +4,35 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DoctorsActivity"
-    android:background="@color/main_green">
+    tools:context=".DoctorsActivity">
 
 
-
-    <Button
-        android:id="@+id/btn_search_doctors"
+<!--    Adding a list, the recyclerView is the view in Android that is used for showing lists of things-->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_doctors"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginStart="30dp"
-        android:layout_marginEnd="30dp"
-        android:layout_marginBottom="20dp"
-        android:background="@drawable/curved_drawable"
-        android:backgroundTint="@color/black"
-        android:layout_alignParentBottom="true"
-        android:text="Search Doctors"
-        android:textColor="@color/gold"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        android:onClick="searchDoctorsButton"/>
+        android:layout_height="match_parent" />
+
+
+<!--    Removed the search button  -->
+<!--    <Button-->
+<!--        android:id="@+id/btn_search_doctors"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        android:layout_marginStart="30dp"-->
+<!--        android:layout_marginEnd="30dp"-->
+<!--        android:layout_marginBottom="20dp"-->
+<!--        android:background="@drawable/curved_drawable"-->
+<!--        android:backgroundTint="@color/black"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:text="Search Doctors"-->
+<!--        android:textColor="@color/gold"-->
+<!--        android:textSize="18sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:onClick="searchDoctorsButton"/>-->
 
 
 </RelativeLayout>
